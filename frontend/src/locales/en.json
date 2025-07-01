@@ -1,0 +1,839 @@
+{
+  "translation": {
+    "welcome": "Welcome",
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password",
+    "language": "Language",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    
+    "common": {
+      "loading": "Loading...",
+      "success": "Success",
+      "warning": "Warning",
+      "info": "Information",
+      "toggleTheme": "Theme",
+      "darkTheme": "Dark Theme",
+      "lightTheme": "Light Theme",
+      "cancel": "Cancel",
+      "confirm": "Yes",
+      "retry": "Refresh",
+      "page": "Page",
+      "of": "of",
+      "previous": "Previous",
+      "next": "Next",
+      "actions": "Actions",
+      "save": "Save",
+      "edit": "Edit",
+      "delete": "Delete",
+      "restore": "Restore",
+      "close": "Close",
+      "search": "Search...",
+      "filter": "Filter",
+      "sort": "Sort by",
+      "noResults": "No results found",
+      "empty": "No items found",
+      "unknown": "Unknown",
+      "loadMore": "Load More",
+      "saving": "Saving...",
+      "back": "Back",
+      "refresh": "Refresh",
+      "login": "Login",
+      "with": "with",
+      "continue": "Continue",
+      "emails": "Emails",
+      "email": "Email",
+      "error": {
+        "notAuthenticated": "You need to log in"
+      },
+      "from": "From",
+      "to": "To",
+      "cc": "CC",
+      "bcc": "BCC",
+      "date": "Date",
+      "subject": "Subject",
+      "account": "Account",
+      "content": "Content",
+      "details": "Details",
+      "attachments": "Attachments"
+    },
+    
+    "sidebar": {
+      "appName": "Mail Management",
+      "home": "Home",
+      "inbox": "Inbox",
+      "sent": "Sent",
+      "trash": "Trash",
+      "passwordManager": "Password Manager",
+      "addAccount": "Add Account",
+      "profile": "Profile",
+      "settings": "Settings",
+      "logout": "Logout"
+    },
+    
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact",
+      "feature": "Features",
+      "hero": "Home",
+      "footer": "Footer"
+    },
+    
+    "auth": {
+      "title": "Mail Management System",
+      "username": "Username",
+      "password": "Password",
+      "login": "Login",
+      "register": "Register",
+      "forgotPassword": "Forgot Password",
+      "loginSuccess": "Login successful",
+      "loginError": "An error occurred while logging in",
+      "registerSuccess": "Registration successful",
+      "registerError": "An error occurred during registration",
+      "logoutSuccess": "Logout successful",
+      "passwordReset": "Password reset link has been sent to your email",
+      "invalidCredentials": "Invalid email or password",
+      "emailExists": "This email is already in use",
+      "registerSteps": "Registration Steps",
+      "registerStep1": "Enter your email address",
+      "registerStep2": "Create a strong password",
+      "registerStep3": "Set up two-factor authentication",
+      "registerStep4": "Verify your identity",
+      "registerSecurity": "Follow these steps to secure your account. Your personal information and data are safe with us.",
+      "notAuthenticated": "You need to log in",
+      "loginSteps":  "You are welcome",
+      "loginStep1": "By logging in you can access the following features:",
+      "loginStep2": "Manage all your emails in one place",
+      "loginStep3": "Customizable filters and labels",
+      "loginStep4": "Advanced search and archiving",
+      "loginSecurity": "Your personal information and data are safe with us.",
+      "otpSetup": {
+        "skip": "Skip",
+        "title": "Two-Factor Authentication",
+        "description": "Add an extra layer of security to your account.",
+        "setupInstructions": "Setup Instructions",
+        "instruction1": "Download the Google Authenticator app",
+        "instruction2": "Scan the QR code with the app",
+        "instruction3": "Enter the 6-digit code shown in the app",
+        "instruction4": "Keep your backup recovery code safe",
+        "manualEntry": "If you cannot scan the QR code, enter this code manually:",
+        "enable": "Enable 2FA",
+        "disable": "Disable 2FA",
+        "regenerate": "Regenerate Code",
+        "qrCodeAlt": "Google Authenticator QR Code",
+        "copySecretAria": "Copy secret key",
+        "statusEnabled": "Two-factor authentication is enabled",
+        "statusDisabled": "Two-factor authentication is disabled",
+        "statusEnabledDesc": "Your account is protected with two-factor authentication. You'll need to enter a verification code when logging in.",
+        "statusDisabledDesc": "Enable two-factor authentication for added security. This will help protect your account from unauthorized access."
+      },
+      "otpVerification": {
+        "title": "Two-Factor Verification",
+        "description": "Enter the 6-digit code generated by your authenticator app.",
+        "codeLabel": "Verification Code",
+        "hint": "Open your authenticator app to get the code.",
+        "verify": "Verify",
+        "error": "Invalid or expired code."
+      },
+      "recoveryCode": {
+        "title": "Recovery Code",
+        "loginDescription": "For security purposes, note down this recovery code or save it in a secure place.",
+        "generate": "Generate Recovery Code",
+        "warning": "Store this recovery code in a safe place. This code can be used to access your account if you lose access to your authenticator app.",
+        "copyCodeAria": "Copy recovery code",
+        "generated": "New recovery code generated successfully.",
+        "useRecovery": "Use a recovery code instead",
+        "codeLabel": "Verification Code",
+        "hint": "Open your authenticator app to get the code.",
+        "verify": "Verify",
+        "useOtp": "Use an OTP instead"
+      }
+    },
+    
+    "emailGroups": {
+      "title": "Email Groups",
+      "create": "Create New Group",
+      "edit": "Edit Group",
+      "delete": "Delete Group",
+      "empty": "No groups created yet",
+      "name": "Group Name",
+      "description": "Description",
+      "members": "members",
+      "addMember": "Add Member",
+      "removeMember": "Remove Member",
+      "addEmail": "Add email address...",
+      "add": "Add",
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirm": "Yes, Delete",
+      "search": "Search groups or emails...",
+      "noResults": "No results found",
+      "noGroups": "No groups created yet",
+      "confirmDelete": "Are you sure you want to delete the group {{groupName}}? This action cannot be undone and all members will be removed.",
+      "delete": {
+        "title": "Delete Group",
+        "confirm": "Are you sure you want to delete the group {{name}}? This action cannot be undone."
+      },
+      "success": {
+        "created": "Group created successfully",
+        "updated": "Group updated successfully",
+        "deleted": "Group deleted successfully",
+        "memberAdded": "Member added successfully",
+        "memberRemoved": "Member removed successfully"
+      },
+      "error": {
+        "fetch": "Error loading groups",
+        "create": "Error creating group",
+        "delete": "Error deleting group",
+        "addMember": "Error adding member",
+        "removeMember": "Error removing member",
+        "nameRequired": "Group name is required"
+      }
+    },
+
+    "composeEmail": {
+      "title": "New Email",
+      "from": "From",
+      "to": "To",
+      "cc": "CC",
+      "bcc": "BCC",
+      "subject": "Subject",
+      "content": "Content",
+      "send": "Send",
+      "sending": "Sending...",
+      "cancel": "Cancel",
+      "close": "Close",
+      "selectGroup": "Select Group",
+      "optional": "Optional",
+      "recipientsPlaceholder": "recipient@example.com, another@example.com",
+      "subjectPlaceholder": "Enter email subject...",
+      "contentPlaceholder": "Write your email content here...",
+      "success": "Email sent successfully!",
+      "reply": "Reply",
+      "attachments": "Attachments",
+      "addAttachment": "Add File",
+      "error": {
+        "selectAccount": "Please select a sender account.",
+        "noRecipients": "Please enter at least one recipient.",
+        "noSubject": "Please enter a subject.",
+        "generic": "An error occurred while sending the email.",
+        "invalidEmails": "One or more email addresses are invalid.",
+        "authFailed": "Authentication failed. Please try reconnecting your email account.",
+        "fileTooLarge": "is too large (maximum 25MB)"
+      }
+    },
+
+    "emailDetail": {
+      "attachments": "Attachments",
+      "recipient": "Recipient",
+      "delete": "Delete",
+      "reply": "Reply",
+      "forward": "Forward",
+      "markAsRead": "Mark as Read",
+      "markAsUnread": "Mark as Unread",
+      "moveToTrash": "Move to Trash",
+      "restore": "Restore",
+      "permanentDelete": "Delete Permanently",
+      "date": "Date",
+      "details": "Email Details",
+      "noContent": "No content available",
+      "translate": "Translate",
+      "showOriginal": "Show Original",
+      "translating": "Translating...",
+      "autoResponse": "Auto Respond",
+      "generateResponses": "Generate Response Options",
+      "suggestedResponses": "Suggested Responses",
+      "hideResponses": "Hide Responses",
+      "generatingResponses": "Generating responses...",
+      "showDetails": "Show Details",
+      "hideDetails": "Hide Details",
+      "subject": "Subject",
+      "content": "Content",
+      "sender": "Sender",
+      "signer": "Signer",
+      "security": "Security",
+      "standardEncryption": "Standard encryption (TLS)",
+      "learnMore": "Learn more",
+      "download": "Download",
+      "from": "From",
+      "to": "To",
+      "cc": "CC",
+      "bcc": "BCC",
+      "downloadAttachment": "Download Attachment"
+    },
+
+    "notifications": {
+      "success": "Success",
+      "error": "Error",
+      "info": "Info",
+      "warning": "Warning",
+      "sessionExpired": "Your session has expired. Please login again.",
+      "networkError": "Network connection error. Please check your internet connection.",
+      "serverError": "Server error. Please try again later.",
+      "longtranslation": "This is a large email and might take longer to translate...",
+      "noResponsesGenerated": "No response suggestions could be generated.",
+      "replyFunctionNotAvailable": "Reply function is not available.",
+      "translationComplete": "Translation completed",
+      "translationFailed": "Translation failed",
+      "generatingResponsesWithLangDetection": "Generating responses with automatic language detection...",
+      "responsesGenerated": "Response options generated"
+    },
+
+    "assistant": {
+      "greeting": "How can I help you?",
+      "questions": {
+        "addEmail": "How do I add a new email account?",
+        "manageInbox": "How do I manage my inbox?",
+        "securitySettings": "How do I enable 2FA?"
+      },
+      "help": {
+        "addEmail": "1. Click 'Add Account' button on the home page\n2. Choose Gmail or Outlook option\n3. Login to your account and approve permissions\n4. Your account will be automatically added",
+        "manageInbox": "• View all your accounts in a single inbox\n• Select emails to perform bulk operations\n• Use pagination to access older emails\n• Use account filter to view specific account emails",
+        "securitySettings": "1. Go to Profile page\n2. Click 'Setup 2FA Verification' button\n3. Scan QR code or copy secret key\n4. Enter verification code to activate 2FA\n5. Save your recovery codes in a safe place"
+      }
+    },
+
+    "passwordManager": {
+      "title": "Password Manager",
+      "titleField": "Title",
+      "titlePlaceholder": "Enter account, site or description",
+      "addPassword": "Add Password",
+      "editPassword": "Edit Password",
+      "deletePassword": "Delete Password",
+      "website": "Website",
+      "username": "Username",
+      "password": "Password",
+      "descriptions": "Description",
+      "notes": "Notes",
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirm": "Yes, Delete",
+      "search": "Search passwords...",
+      "noResults": "No results found",
+      "noPasswords": "No passwords saved yet",
+      "noEntries": "No passwords saved yet",
+      "confirmDelete": "Are you sure you want to delete this password? This action cannot be undone.",
+      "success": {
+        "created": "Password saved successfully",
+        "updated": "Password updated successfully",
+        "deleted": "Password deleted successfully"
+      },
+      "error": {
+        "fetch": "Error loading passwords",
+        "create": "Error saving password",
+        "delete": "Error deleting password",
+        "nameRequired": "Website name is required"
+      }
+    },
+
+    "pages": {
+      "home": {
+        "title": "Your Mail Accounts",
+        "welcome": "All Your Emails\nIn One Platform",
+        "description": "Manage all your email accounts including Gmail, Outlook, and others from a single platform. Keep your emails under control with a secure, fast, and user-friendly interface.",
+        "features": {
+          "title": "Features",
+          "emailManagement": "Single Inbox",
+          "emailManagementDesc": "View and manage all your emails in a single inbox.",
+          "groupManagement": "Easy Management",
+          "groupManagementDesc": "Manage your emails easily with a user-friendly interface.",
+          "security": "Secure Storage",
+          "securityDesc": "Your emails and passwords are stored securely."
+        },
+        "lastChecked": "Last checked",
+        "addedAt": "Added at",
+        "new": "new",
+        "deleteAccount": "Delete Account",
+        "deleteAccountConfirm": "Are you sure you want to delete the account {{email}}? This action cannot be undone.",
+        "noAccounts": "You haven't added any mail accounts yet",
+        "quickAccess": "Quick Access"
+      },
+      "inbox": {
+        "title": "All Inboxes",
+        "titleWithAccount": "Inbox - {{account}}",
+        "allAccounts": "All Accounts",
+        "noEmails": "No emails found",
+        "noEmailsForAccount": "No emails found for this account",
+        "selectAll": "Select All",
+        "deselectAll": "Deselect All",
+        "selectedCount": "{{count}} selected",
+        "deleteSelected": "Delete Selected",
+        "loadMore": "Load More"
+      },
+      "sent": {
+        "title": "Sent Items",
+        "empty": "No sent emails",
+        "search": "Search sent emails...",
+        "filter": "Filter",
+        "sort": "Sort by"
+      },
+      "trash": {
+        "title": "Trash",
+        "empty": "Trash is empty",
+        "search": "Search trash...",
+        "restore": "Restore",
+        "delete": "Delete Permanently",
+        "emptyTrash": "Empty Trash"
+      },
+      "profile": {
+        "title": "Profile",
+        "personalInfo": "Personal Information",
+        "security": "Security",
+        "preferences": "Preferences",
+        "save": "Save Changes",
+        "cancel": "Cancel",
+        "success": "Profile updated successfully",
+        "error": "Error updating profile"
+      },
+      "settings": {
+        "title": "Settings",
+        "general": "General",
+        "appearance": "Appearance",
+        "notifications": "Notifications",
+        "language": "Language",
+        "theme": "Theme",
+        "save": "Save Changes",
+        "cancel": "Cancel",
+        "success": "Settings saved successfully",
+        "error": "Error saving settings"
+      },
+      "passwordManager": {
+        "title": "Password Manager",
+        "addPassword": "Add Password",
+        "editPassword": "Edit Password",
+        "deletePassword": "Delete Password",
+        "search": "Search passwords...",
+        "empty": "No passwords saved",
+        "website": "Website",
+        "username": "Username",
+        "password": "Password",
+        "notes": "Notes",
+        "save": "Save",
+        "cancel": "Cancel",
+        "success": "Password saved successfully",
+        "error": "Error saving password"
+      }
+    },
+
+    "mailAccount": {
+      "errors": {
+        "notAuthenticated": "Not authenticated",
+        "failedToGetGmailAuth": "Failed to get Gmail auth URL",
+        "failedToDeleteAccount": "Failed to delete account",
+        "failedToHandleGmailCallback": "Failed to handle Gmail callback",
+        "failedToGetAccounts": "Failed to get user accounts",
+        "failedToStartGmailAuth": "Failed to start Gmail authentication",
+        "failedToFetchInbox": "Error fetching inbox messages",
+        "failedToSendEmail": "Failed to send email",
+        "failedToFetchSentEmails": "Failed to fetch sent emails",
+        "failedToDeleteEmail": "Failed to delete email",
+        "failedToFetchDeletedEmails": "Failed to fetch deleted emails",
+        "failedToRestoreEmail": "Failed to restore email",
+        "failedToPermanentDelete": "Failed to permanently delete email",
+        "sessionExpired": "Your session has expired. Please login again.",
+        "invalidResponse": "Invalid response format from server",
+        "accountNotFound": "Account not found",
+        "bulkEmailDeleteFailed": "Failed to delete {{count}} emails",
+        "outlookBulkDeleteLimit": "Failed to delete {{count}} Outlook emails (API limit)",
+        "noEmailsSelected": "Please select at least one email"
+      },
+      "success": {
+        "accountDeleted": "Account deleted successfully",
+        "accountAdded": "{{email}} account added successfully",
+        "emailSent": "Email sent successfully",
+        "emailDeleted": "Email deleted successfully",
+        "emailRestored": "Email restored successfully",
+        "emailPermanentDeleted": "Email permanently deleted",
+        "bulkEmailsDeleted": "{{count}} emails deleted successfully"
+      },
+      "addAccount": "Add Account",
+      "gmailDescription": "Add your Gmail account to manage all your emails in one place",
+      "outlookDescription": "Add your Outlook account to manage all your emails in one place",
+      "errors": {
+        "failedToAddAccount": "Failed to add account",
+        "failedToStartGmailAuth": "Failed to start Gmail authentication",
+        "failedToStartOutlookAuth": "Failed to start Outlook authentication"
+      },
+      "about": {
+        "title": "About Adding Accounts",
+        "description": "After adding your account, your mailbox will be automatically synchronized and all your emails will be accessible through the application. This process may take a few minutes."
+      },
+      "info": {
+        "deletingEmails": "Deleting {{count}} emails..."
+      }
+    },
+
+    "profile": {
+      "title": "Edit Profile",
+      "subtitle": "Update your profile information",
+      "avatar": "Profile Picture",
+      "avatarDescription": "Click to change your profile picture",
+      "name": "Full Name",
+      "username": "Username",
+      "email": "Email",
+      "changePassword": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "saveChanges": "Save Changes",
+      "info": "Profile Information",
+      "infoDescription": "Update your profile information to access the following features:",
+      "info1": "Update your personal information",
+      "info2": "Change your profile picture",
+      "info3": "Update your password for security",
+      "success": {
+        "updated": "Profile updated successfully",
+        "passwordUpdated": "Password updated successfully",
+        "avatarUpdated": "Profile picture updated successfully"
+      },
+      "error": {
+        "fetch": "Error loading profile: {{error}}",
+        "update": "Error updating profile",
+        "passwordMismatch": "New passwords do not match",
+        "passwordTooShort": "New password must be at least 6 characters",
+        "passwordUpdate": "Error updating password",
+        "fileTooLarge": "File size is too large. Maximum size is 5MB",
+        "invalidFileType": "Please select a valid image file",
+        "avatarUpdate": "Error updating profile picture: {{error}}"
+      }
+    },
+
+    "deletedItems": {
+      "title": "Trash",
+      "empty": "No emails found in trash",
+      "emptyDescription": "There are no emails in the trash or you haven't deleted any emails yet",
+      "selectedCount": "{{count}} emails selected",
+      "table": {
+        "account": "Account",
+        "subject": "Subject",
+        "date": "Date",
+        "noSubject": "(No Subject)"
+      },
+      "actions": {
+        "restore": "Restore",
+        "delete": "Delete Permanently",
+        "permanentDelete": "Delete Permanently",
+        "bulkRestore": "Restore Selected",
+        "bulkDelete": "Delete Selected"
+      },
+      "dialog": {
+        "title": "Permanent Delete Confirmation",
+        "description": "Are you sure you want to permanently delete this email? This action cannot be undone.",
+        "bulkTitle": "Bulk Permanent Delete Confirmation",
+        "bulkDescription": "Are you sure you want to permanently delete {{count}} emails? This action cannot be undone.",
+        "confirm": "Delete Permanently"
+      },
+      "pagination": {
+        "total": "Total {{count}} emails"
+      },
+      "success": {
+        "restored": "Email restored successfully",
+        "deleted": "Email permanently deleted",
+        "bulkRestored": "{{count}} emails restored successfully",
+        "bulkDeleted": "{{count}} emails permanently deleted"
+      },
+      "error": {
+        "invalidResponse": "Invalid server response",
+        "fetch": "Error fetching deleted emails",
+        "restore": "Error restoring email",
+        "delete": "Error permanently deleting email",
+        "bulkRestore": "Error restoring emails",
+        "bulkDelete": "Error permanently deleting emails",
+        "bulkRestoreFailed": "Failed to restore {{count}} emails",
+        "bulkDeleteFailed": "Failed to permanently delete {{count}} emails",
+        "noEmailsSelected": "Please select at least one email"
+      },
+      "info": {
+        "restoringEmails": "Restoring {{count}} emails...",
+        "deletingEmails": "Deleting {{count}} emails..."
+      }
+    },
+
+    "landing": {
+      "emailProviders": {
+        "gmail": "Gmail",
+        "outlook": "Outlook",
+        "schoolMail": "School Mail"
+      },
+      "nav": {
+        "features": "Features",
+        "howItWorks": "How It Works",
+        "providers": "Supported Services"
+      },
+      "hero": {
+        "title": "Manage All Your Emails On One Platform",
+        "description": "Control all your email accounts including {{provider}} from a single interface with Mail Management. Secure, fast, and user-friendly experience.",
+        "startButton": "Start For Free",
+        "howItWorksButton": "How It Works",
+        "imageAlt": "Mail Management Interface",
+        "connected": "Connected"
+      },
+      "trustedBy": {
+        "subtitle": "TRUSTED BY",
+        "title": "Thousands of Users"
+      },
+      "stats": {
+        "activeUsers": "Active Users",
+        "emailsManaged": "Emails Managed",
+        "uptime": "Uptime",
+        "supportedServices": "Supported Services"
+      },
+      "features": {
+        "title": "Featured Capabilities",
+        "subtitle": "Mail Management is equipped with modern features that enhance your email experience.",
+        "unified": {
+          "title": "Unified Inbox",
+          "description": "View and manage all your emails from different services in a single inbox.",
+          "feature1": "View all accounts",
+          "feature2": "Automatic synchronization",
+          "feature3": "Quick response"
+        },
+        "secure": {
+          "title": "Secure Access",
+          "description": "Protect your accounts with two-factor authentication and secure OAuth integration.",
+          "feature1": "2FA protection",
+          "feature2": "Password manager",
+          "feature3": "End-to-end encryption"
+        },
+        "smart": {
+          "title": "Smart Management",
+          "description": "Efficiently organize your communications with email groups and advanced filtering.",
+          "feature1": "Personalized groups",
+          "feature2": "Advanced search",
+          "feature3": "Tagging system"
+        }
+      },
+      "howItWorks": {
+        "title": "How It Works",
+        "subtitle": "Transform your email management in three simple steps.",
+        "step1": {
+          "title": "Create an Account",
+          "description": "Create your free account in seconds and log in to our secure platform."
+        },
+        "step2": {
+          "title": "Connect Your Email Accounts",
+          "description": "Securely connect your Gmail and Outlook accounts with just a few clicks."
+        },
+        "step3": {
+          "title": "Manage All Your Emails",
+          "description": "View, reply to, and organize all your emails in a single interface."
+        }
+      },
+      "testimonials": {
+        "title": "What Our Users Say",
+        "subtitle": "Thousands of satisfied users choose Mail Management.",
+        "quotes": {
+          "1": {
+            "text": "Being able to manage emails from different accounts in one place is great. Now I never miss any important emails.",
+            "name": "Ahmed Y.",
+            "role": "Business Person"
+          },
+          "2": {
+            "text": "Knowing my emails are secure with the password manager and two-factor authentication gives me peace of mind. Great app!",
+            "name": "Mary K.",
+            "role": "Marketing Expert"
+          },
+          "3": {
+            "text": "Thanks to Mail Management, I save at least 1 hour a day. The interface is very user-friendly and all my email services are now in one place.",
+            "name": "James D.",
+            "role": "Freelancer"
+          },
+          "4": {
+            "text": "A great platform that helps me organize my communication with students. I can manage both my school mail and Gmail account from one place.",
+            "name": "Elizabeth B.",
+            "role": "Teacher"
+          },
+          "5": {
+            "text": "Technically very solid infrastructure. OAuth integration and security measures are quite impressive.",
+            "name": "Kevin T.",
+            "role": "Software Developer"
+          },
+          "6": {
+            "text": "Thanks to Mail Management, communication with my customers has become much easier. Now I don't miss emails and can respond quickly.",
+            "name": "Zoe G.",
+            "role": "Small Business Owner"
+          }
+        }
+      },
+      "providers": {
+        "title": "Supported Email Services",
+        "subtitle": "Combine the most popular email services on a single platform.",
+        "schoolMail": "School Mail",
+        "slider": {
+          "1": "Mail Management Interface 1",
+          "2": "Mail Management Interface 2",
+          "3": "Mail Management Interface 3",
+          "4": "Mail Management Interface 4",
+          "5": "Mail Management Interface 5"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Most asked questions and answers about Mail Management.",
+        "q1": {
+          "question": "Is Mail Management free?",
+          "answer": "Yes, the basic features of Mail Management are completely free. We also have premium subscription plans for more advanced features."
+        },
+        "q2": {
+          "question": "How is the security of my email accounts ensured?",
+          "answer": "Mail Management provides secure access to your accounts with OAuth2 protocol. Your passwords are never stored on our servers and all data is encrypted."
+        },
+        "q3": {
+          "question": "Which email services are supported?",
+          "answer": "Currently Gmail, Outlook and School Mail system are supported. More services will be added soon."
+        },
+        "q4": {
+          "question": "How can I add my email account?",
+          "answer": "After logging into your account, you can select the email service you want from the \"Add Account\" section and connect your account with a few clicks."
+        },
+        "q5": {
+          "question": "Can I use Mail Management on my mobile device?",
+          "answer": "Yes, Mail Management is fully mobile compatible and accessible from all devices through your browser. Special applications for iOS and Android will also be released soon."
+        },
+        "q6": {
+          "question": "Is my data safe in Mail Management?",
+          "answer": "Yes, we apply the highest security standards. All data is encrypted end-to-end and we have GDPR compliant data protection policies."
+        }
+      },
+      "footer": {
+        "description": "Manage all your email accounts on a single platform. Secure, fast and user-friendly.",
+        "product": {
+          "title": "Product",
+          "features": "Features",
+          "plans": "Plans",
+          "security": "Security",
+          "partners": "Partners"
+        },
+        "support": {
+          "title": "Support",
+          "helpCenter": "Help Center",
+          "documentation": "Documentation",
+          "statusPage": "Status Page",
+          "contactUs": "Contact Us"
+        },
+        "company": {
+          "title": "Company",
+          "about": "About Us",
+          "blog": "Blog",
+          "careers": "Careers",
+          "press": "Press"
+        },
+        "copyright": "© {{year}} Mail Management. All rights reserved.",
+        "legal": {
+          "privacy": "Privacy Policy",
+          "terms": "Terms of Use",
+          "cookies": "Cookie Policy"
+        }
+      }
+    },
+
+    "languages": {
+      "turkish": "Turkish",
+      "english": "English",
+      "selectLanguage": "Select Language"
+    },
+    
+    "systemMail": {
+      "title": "System Mail Account",
+      "description": "Configure a system mail account for password reset and other notification emails",
+      "configure": "Configure System Mail Account",
+      "checking": "Checking system mail status...",
+      "configured": "System Mail Configured",
+      "configuredEmail": "System email account configured:",
+      "connectDifferent": "Connect Different Account",
+      "backToSettings": "Back to Settings",
+      "errors": {
+        "checkFailed": "Failed to check system mail status",
+        "authFailed": "Failed to authenticate with Google",
+        "configurationFailed": "Failed to configure system mail"
+      }
+    },
+
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "description": "Enter your email address and we'll send you a link to reset your password",
+      "emailPlaceholder": "Enter your email address",
+      "submit": "Send Reset Link",
+      "backToLogin": "Back to Login",
+      "success": {
+        "title": "Reset Link Sent",
+        "description": "We've sent a password reset link to your email address. Please check your inbox."
+      },
+      "error": {
+        "emailRequired": "Email address is required",
+        "invalidEmail": "Please enter a valid email address",
+        "notFound": "No account found with this email address",
+        "generic": "An error occurred while sending the reset link"
+      },
+      "getStarted": "Get Started",
+      "documentation": "Documentation"
+    },
+
+    "resetPassword": {
+      "title": "Reset Password",
+      "description": "Please enter your new password",
+      "verifying": "Verifying reset token...",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "••••••••",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "••••••••",
+      "submit": "Reset Password",
+      "backToLogin": "Back to Login",
+      "success": {
+        "title": "Password Reset Successful",
+        "description": "Your password has been successfully reset. You can now log in with your new password.",
+        "loginButton": "Go to Login"
+      },
+      "error": {
+        "invalidToken": "Invalid or expired reset token",
+        "verificationFailed": "Failed to verify reset token",
+        "passwordTooShort": "Password must be at least 8 characters long",
+        "passwordsDoNotMatch": "Passwords do not match",
+        "generic": "Failed to reset password"
+      }
+    },
+
+    "sentItems": {
+      "title": "Sent Items",
+      "empty": "No sent emails",
+      "emptyDescription": "You haven't sent any emails yet",
+      "selectedCount": "{{count}} emails selected",
+      "table": {
+        "subject": "Subject",
+        "to": "To",
+        "from": "From",
+        "date": "Date",
+        "noSubject": "(No Subject)"
+      },
+      "actions": {
+        "delete": "Delete",
+        "bulkDelete": "Delete Selected"
+      },
+      "dialog": {
+        "bulkTitle": "Bulk Delete Confirmation",
+        "bulkDescription": "Are you sure you want to delete {{count}} emails? This action cannot be undone.",
+        "confirm": "Delete"
+      },
+      "success": {
+        "deleted": "Email deleted",
+        "bulkDeleted": "{{count}} emails deleted successfully"
+      },
+      "error": {
+        "invalidResponse": "Invalid server response",
+        "fetch": "Error fetching sent emails",
+        "delete": "Error deleting email",
+        "bulkDelete": "Error deleting emails",
+        "bulkDeleteFailed": "Failed to delete {{count}} emails",
+        "noEmailsSelected": "Please select at least one email"
+      },
+      "info": {
+        "deletingEmails": "Deleting {{count}} emails..."
+      }
+    }
+  }
+} 

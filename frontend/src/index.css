@@ -1,0 +1,241 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Email content styles */
+.email-content {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0.5rem 0;
+    image-rendering: auto;
+  }
+
+  img[src^="data:image/gif"] {
+    image-rendering: auto !important;
+    pointer-events: none;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    perspective: 1000;
+  }
+
+  p {
+    margin: 1rem 0;
+  }
+
+  a {
+    color: #3b82f6;
+    text-decoration: underline;
+  }
+
+  ul, ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+  }
+
+  blockquote {
+    margin: 1rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid #e5e7eb;
+  }
+
+  pre {
+    background-color: #f3f4f6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+  }
+
+  code {
+    font-family: monospace;
+    background-color: #f3f4f6;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+
+  th, td {
+    border: 1px solid #e5e7eb;
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f9fafb;
+  }
+}
+
+/* Dark mode styles */
+.dark .email-content {
+  pre, code {
+    background-color: #374151;
+  }
+
+  blockquote {
+    border-left-color: #4b5563;
+  }
+
+  table {
+    th, td {
+      border-color: #4b5563;
+    }
+
+    th {
+      background-color: #374151;
+    }
+  }
+}
+
+/* Email içeriği stilleri */
+.email-content {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+.dark .email-content {
+  color: #e5e7eb;
+}
+
+/* Email tabloları için stiller */
+.email-content table {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  border: none !important;
+}
+
+.email-content table * {
+  border: none !important;
+}
+
+.email-content td,
+.email-content th {
+  padding: 8px;
+  border: none !important;
+}
+
+/* Çerçeveleri kaldır */
+.email-content [style*="border"],
+.email-content [class*="border"] {
+  border: none !important;
+}
+
+/* Email içindeki resimler için stiller */
+.email-content img {
+  max-width: 100%;
+  height: auto !important;
+  display: inline-block;
+}
+
+/* Email linkleri için stiller */
+.email-content a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.dark .email-content a {
+  color: #60a5fa;
+}
+
+/* Email içindeki özel elementler için stiller */
+.email-content [class*="mercado-"] {
+  max-width: 100% !important;
+  width: auto !important;
+  border: none !important;
+}
+
+.email-content [style*="visibility: hidden"],
+.email-content [style*="display: none"] {
+  display: none !important;
+}
+
+/* Email container stilleri */
+.email-content-container {
+  background: var(--bg-primary);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* İç içe tablo düzeltmeleri */
+.email-content table table {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Özel sınıf düzeltmeleri */
+.email-content [class*="container"],
+.email-content [class*="wrapper"],
+.email-content [class*="content"] {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.email-body {
+  font-size: 1rem;
+}
+
+.email-body img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.email-body a {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.email-body blockquote {
+  border-left: 4px solid #e5e7eb;
+  margin: 1rem 0;
+  padding-left: 1rem;
+  color: #6b7280;
+}
+
+.email-body pre {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+.email-body th {
+  background-color: #f3f4f6;
+}
+
+/* Dark mode stilleri */
+.dark .email-body {
+  color: #e5e7eb;
+}
+
+.dark .email-body a {
+  color: #60a5fa;
+}
+
+.dark .email-body blockquote {
+  border-left-color: #4b5563;
+  color: #9ca3af;
+}
+
+.dark .email-body th {
+  background-color: #374151;
+}
+
+.dark .email-body th,
+.dark .email-body td {
+  border-color: #4b5563;
+}

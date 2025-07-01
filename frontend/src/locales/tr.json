@@ -1,0 +1,869 @@
+{
+  "translation": {
+    "welcome": "Hoşgeldiniz",
+    "login": "Giriş",
+    "register": "Kayıt Ol",
+    "email": "E-posta",
+    "password": "Şifre",
+    "forgotPassword": "Şifremi Unuttum",
+    "language": "Dil",
+    "settings": "Ayarlar",
+    "profile": "Profil",
+    "logout": "Çıkış",
+    
+    "common": {
+      "loading": "Yükleniyor...",
+      "saving": "Kaydediliyor...",
+      "back": "Geri",
+      "retry": "Yenile",
+      "refresh": "Yenile",
+      "error": "Hata",
+      "success": "Başarılı",
+      "warning": "Uyarı",
+      "info": "Bilgi",
+      "toggleTheme": "Tema",
+      "darkTheme": "Koyu Tema",
+      "lightTheme": "Açık Tema",
+      "cancel": "İptal",
+      "confirm": "Evet",
+      "login": "Giriş",
+      "unknown": "Bilinmiyor",
+      "page": "Sayfa",
+      "of": "/",
+      "previous": "Önceki",
+      "next": "Sonraki",
+      "actions": "İşlemler",
+      "save": "Kaydet",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "restore": "Geri Yükle",
+      "close": "Kapat",
+      "search": "Ara...",
+      "filter": "Filtrele",
+      "sort": "Sırala",
+      "noResults": "Sonuç bulunamadı",
+      "empty": "Öğe bulunamadı",
+      "loadMore": "Daha Fazla Yükle",
+      "with": "ile",
+      "continue": "Devam Et",
+      "emails": "E-postalar",
+      "email": "Email",
+      "from": "Kimden",
+      "to": "Kime",
+      "cc": "CC",
+      "bcc": "BCC",
+      "date": "Tarih",
+      "subject": "Konu",
+      "account": "Hesap",
+      "content": "İçerik",
+      "details": "Detaylar",
+      "attachments": "Ekler",
+      "showing": "Gösteriliyor",
+      "error": {
+        "notAuthenticated": "Giriş yapmanız gerekiyor"
+      }
+    },
+    
+    "sidebar": {
+      "appName": "E-Posta Yönetimi",
+      "home": "Ana Sayfa",
+      "inbox": "Gelen Kutusu",
+      "sent": "Gönderilmiş",
+      "trash": "Çöp Kutusu",
+      "passwordManager": "Şifre Yöneticisi",
+      "addAccount": "Hesap Ekle",
+      "profile": "Profil",
+      "settings": "Ayarlar",
+      "logout": "Çıkış"
+    },
+    
+    "navbar": {
+      "home": "Ana Sayfa",
+      "about": "Hakkında",
+      "contact": "İletişim",
+      "feature": "Özellikler",
+      "hero": "Ana Sayfa",
+      "footer": "Alt Bilgi"
+    },
+    
+    "auth": {
+      "title": "E-Posta Yönetim Sistemi",
+      "username": "Kullanıcı Adı",
+      "password": "Şifre",
+      "login": "Giriş",
+      "register": "Kayıt Ol",
+      "forgotPassword": "Şifremi Unuttum",
+      "loginSuccess": "Giriş başarılı",
+      "loginError": "Giriş sırasında bir hata oluştu",
+      "registerSuccess": "Kayıt başarılı",
+      "registerError": "Kayıt sırasında bir hata oluştu",
+      "logoutSuccess": "Çıkış başarılı",
+      "passwordReset": "Şifre sıfırlama bağlantısı e-posta adresinize gönderildi",
+      "invalidCredentials": "Geçersiz e-posta veya şifre",
+      "emailExists": "Bu e-posta adresi zaten kullanımda",
+      "registerSteps": "Kayıt Adımları",
+      "registerStep1": "E-posta adresinizi girin",
+      "registerStep2": "Güçlü bir şifre oluşturun",
+      "registerStep3": "İki faktörlü kimlik doğrulamayı ayarlayın",
+      "registerStep4": "Kimliğinizi doğrulayın",
+      "registerSecurity": "Hesabınızı güvence altına almak için bu adımları izleyin. Kişisel bilgileriniz ve verileriniz bizimle güvende.",
+      "loginSteps":  "Hoş Geldiniz",
+      "loginStep1": "Giriş yaparak aşağıdaki özelliklere erişebilirsiniz:",
+      "loginStep2": "Tüm e-postalarınızı tek bir yerden yönetme",
+      "loginStep3": "Özelleştirilebilir filtreler ve etiketler",
+      "loginStep4": "Gelişmiş arama ve arşivleme",
+      "loginSecurity": "Kişisel bilgileriniz ve verileriniz bizimle güvende.",
+      "otpSetup": {
+        "skip": "Atla",
+        "title": "İki Faktörlü Kimlik Doğrulama",
+        "description": "Hesabınıza ekstra bir güvenlik katmanı ekleyin.",
+        "setupInstructions": "Kurulum Talimatları",
+        "instruction1": "Google Authenticator uygulamasını indirin",
+        "instruction2": "QR kodunu uygulama ile tarayın",
+        "instruction3": "Uygulamada gösterilen 6 haneli kodu girin",
+        "instruction4": "Yedek kurtarma kodunuzu güvenli bir yerde saklayın",
+        "manualEntry": "QR kodunu tarayamıyorsanız, bu kodu manuel olarak girin:",
+        "enable": "2FA'yı Etkinleştir",
+        "disable": "2FA'yı Devre Dışı Bırak",
+        "regenerate": "Kodu Yenile",
+        "qrCodeAlt": "Google Authenticator QR Kodu",
+        "copySecretAria": "Gizli anahtarı kopyala",
+        "statusEnabled": "İki faktörlü kimlik doğrulama etkin",
+        "statusDisabled": "İki faktörlü kimlik doğrulama devre dışı",
+        "statusEnabledDesc": "Hesabınız iki faktörlü kimlik doğrulama ile korunuyor. Giriş yaparken bir doğrulama kodu girmeniz gerekecek.",
+        "statusDisabledDesc": "Ek güvenlik için iki faktörlü kimlik doğrulamayı etkinleştirin. Bu, hesabınızı yetkisiz erişime karşı korumaya yardımcı olacaktır."
+      },
+      "recoveryCode": {
+        "title": "Kurtarma Kodu",
+        "loginDescription": "Güvenlik amacıyla, bu kurtarma kodunu not edin veya güvenli bir yerde saklayın.",
+        "generate": "Kurtarma Kodu Oluştur",
+        "warning": "Bu kurtarma kodunu güvenli bir yerde saklayın. Bu kod, doğrulayıcı uygulamanıza erişiminizi kaybetmeniz durumunda hesabınıza erişmek için kullanılabilir.",
+        "copyCodeAria": "Kurtarma kodunu kopyala",
+        "generated": "Yeni kurtarma kodu başarıyla oluşturuldu.",
+        "useRecovery": "Onun yerine kurtarma kodu kullan",
+        "codeLabel": "Doğrulama Kodu",
+        "hint": "Authenticator uygulamanızı açıp kodu alın.",
+        "verify": "Doğrula",
+        "useOtp": "Onun yerine doğrulama kodu kullan"
+      },
+      "otpVerification": {
+        "title": "İki Adımlı Doğrulama",
+        "description": "Authenticator uygulamanız tarafından oluşturulan 6 haneli kodu girin.",
+        "codeLabel": "Doğrulama Kodu",
+        "hint": "Authenticator uygulamanızı açıp kodu alın.",
+        "verify": "Doğrula",
+        "error": "Geçersiz veya süresi dolmuş kod."
+      }
+
+    },
+    
+    "emailGroups": {
+      "title": "E-posta Grupları",
+      "create": "Yeni Grup Oluştur",
+      "edit": "Grubu Düzenle",
+      "delete": "Grubu Sil",
+      "empty": "Henüz grup oluşturulmamış",
+      "name": "Grup Adı",
+      "description": "Açıklama",
+      "members": "üye",
+      "addMember": "Üye Ekle",
+      "removeMember": "Üyeyi Çıkar",
+      "addEmail": "E-posta adresi ekle...",
+      "add": "Ekle",
+      "save": "Kaydet",
+      "cancel": "İptal",
+      "confirm": "Evet, Sil",
+      "search": "Grup veya e-posta ara...",
+      "noResults": "Sonuç bulunamadı",
+      "noGroups": "Henüz grup oluşturulmamış",
+      "confirmDelete": "{{groupName}} grubunu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz ve gruptaki tüm üyeler silinecektir.",
+      "delete": {
+        "title": "Grubu Sil",
+        "confirm": "{{name}} grubunu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+      },
+      "success": {
+        "created": "Grup başarıyla oluşturuldu",
+        "updated": "Grup başarıyla güncellendi",
+        "deleted": "Grup başarıyla silindi",
+        "memberAdded": "Üye başarıyla eklendi",
+        "memberRemoved": "Üye başarıyla silindi"
+      },
+      "error": {
+        "fetch": "Gruplar yüklenirken hata oluştu",
+        "create": "Grup oluşturulurken hata oluştu",
+        "delete": "Grup silinirken hata oluştu",
+        "addMember": "Üye eklenirken hata oluştu",
+        "removeMember": "Üye silinirken hata oluştu",
+        "nameRequired": "Grup adı gereklidir"
+      }
+    },
+
+    "composeEmail": {
+      "title": "Yeni E-posta",
+      "from": "Kimden",
+      "to": "Kime",
+      "cc": "CC",
+      "bcc": "BCC",
+      "subject": "Konu",
+      "content": "İçerik",
+      "send": "Gönder",
+      "sending": "Gönderiliyor...",
+      "cancel": "İptal",
+      "close": "Kapat",
+      "selectGroup": "Grup Seç",
+      "optional": "İsteğe bağlı",
+      "recipientsPlaceholder": "alıcı@örnek.com, başka@örnek.com",
+      "subjectPlaceholder": "E-posta konusunu girin...",
+      "contentPlaceholder": "E-posta içeriğini buraya yazın...",
+      "success": "E-posta başarıyla gönderildi!",
+      "reply": "Yanıtla",
+      "attachments": "Ekler",
+      "addAttachment": "Dosya Ekle",
+      "error": {
+        "selectAccount": "Lütfen gönderici hesabı seçin.",
+        "noRecipients": "Lütfen en az bir alıcı girin.",
+        "noSubject": "Lütfen bir konu girin.",
+        "generic": "E-posta gönderilirken bir hata oluştu.",
+        "invalidEmails": "Bir veya daha fazla e-posta adresi geçersiz.",
+        "authFailed": "Kimlik doğrulama başarısız oldu. Lütfen e-posta hesabınızı yeniden bağlamayı deneyin.",
+        "fileTooLarge": "dosyası çok büyük (maksimum 25MB)"
+      }
+    },
+
+    "emailDetail": {
+      "attachments": "Ekler",
+      "recipient": "Alıcı",
+      "delete": "Sil",
+      "reply": "Yanıtla",
+      "forward": "İlet",
+      "markAsRead": "Okundu Olarak İşaretle",
+      "markAsUnread": "Okunmadı Olarak İşaretle",
+      "moveToTrash": "Çöp Kutusuna Taşı",
+      "restore": "Geri Yükle",
+      "permanentDelete": "Kalıcı Olarak Sil",
+      "date": "Tarih",
+      "showDetails": "Detayları Göster",
+      "hideDetails": "Detayları Gizle",
+      "noContent": "İçerik bulunamadı",
+      "translate": "Çevir",
+      "showOriginal": "Orijinali Göster",
+      "translating": "Çevriliyor...",
+      "autoResponse": "Otomatik Yanıt",
+      "generateResponses": "Yanıt Seçeneklerini Oluştur",
+      "suggestedResponses": "Önerilen Yanıtlar",
+      "hideResponses": "Yanıtları Gizle",
+      "generatingResponses": "Yanıtlar oluşturuluyor...",
+      "subject": "Konu",
+      "content": "İçerik",
+      "sender": "Gönderen",
+      "signer": "İmzalayan",
+      "security": "Güvenlik",
+      "standardEncryption": "Standart şifreleme (TLS)",
+      "learnMore": "Daha fazla bilgi edinin",
+      "download": "İndir",
+      "from": "Kimden",
+      "to": "Kime",
+      "cc": "CC",
+      "bcc": "BCC",
+      "downloadAttachment": "Eki İndir"
+    },
+
+    "notifications": {
+      "success": "Başarılı",
+      "error": "Hata",
+      "warning": "Uyarı",
+      "info": "Bilgi",
+      "sessionExpired": "Oturumunuz sona erdi. Lütfen tekrar giriş yapın.",
+      "networkError": "Ağ bağlantısı hatası. Lütfen internet bağlantınızı kontrol edin.",
+      "serverError": "Sunucu hatası. Lütfen daha sonra tekrar deneyin.",
+      "longtranslation": "Bu büyük bir e-posta, çeviri daha uzun sürebilir...",
+      "noResponsesGenerated": "Yanıt önerileri oluşturulamadı.",
+      "replyFunctionNotAvailable": "Yanıtlama işlevi kullanılamıyor.",
+      "translationComplete": "Çeviri tamamlandı",
+      "translationFailed": "Çeviri yapılamadı",
+      "generatingResponsesWithLangDetection": "Otomatik dil algılama ile yanıtlar oluşturuluyor...",
+      "responsesGenerated": "Yanıt seçenekleri oluşturuldu"
+    },
+
+    "assistant": {
+      "greeting": "Size nasıl yardımcı olabilirim?",
+      "questions": {
+        "addEmail": "Yeni bir e-posta hesabı nasıl eklerim?",
+        "manageInbox": "Gelen kutusunu nasıl yönetirim?",
+        "securitySettings": "2FA nasıl etkinleştiririm?"
+      },
+      "help": {
+        "addEmail": "1. Ana sayfada 'Hesap Ekle' butonuna tıklayın\n2. Gmail veya Outlook seçeneğini seçin\n3. Hesabınıza giriş yapın ve izinleri onaylayın\n4. Hesabınız otomatik olarak eklenecektir",
+        "manageInbox": "• Tüm hesaplarınızı tek gelen kutusunda görüntüleyin\n• E-postaları seçerek toplu işlemler yapabilirsiniz\n• Sayfalama ile eski e-postalara erişebilirsiniz\n• Hesap filtresi ile belirli bir hesabın e-postalarını görüntüleyebilirsiniz",
+        "securitySettings": "1. Profil sayfasına gidin\n2. '2FA Doğrulama Kur' butonuna tıklayın\n3. QR kodu tarayın veya gizli anahtarı kopyalayın\n4. Doğrulama kodunu girerek 2FA'yı aktifleştirin\n5. Kurtarma kodlarınızı güvenli bir yerde saklayın"
+      }
+    },
+
+    "passwordManager": {
+      "title": "Şifre Yöneticisi",
+      "titleField": "Başlık",
+      "titlePlaceholder": "Hesap, site veya açıklama girin",
+      "password": "Şifre",
+      "addPassword": "Şifre Ekle",
+      "editPassword": "Şifreyi Düzenle",
+      "deletePassword": "Şifreyi Sil",
+      "website": "Web Sitesi",
+      "username": "Kullanıcı Adı",
+      "descriptions": "Açıklama",
+      "notes": "Notlar",
+      "save": "Kaydet",
+      "cancel": "İptal",
+      "confirm": "Evet, Sil",
+      "search": "Şifreleri ara...",
+      "noEntries": "Henüz kayıtlı şifre bulunmamaktadır",
+      "noResults": "Sonuç bulunamadı",
+      "noPasswords": "Henüz şifre kaydedilmemiş",
+      "confirmDelete": "Bu şifreyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "success": {
+        "created": "Şifre başarıyla kaydedildi",
+        "updated": "Şifre başarıyla güncellendi",
+        "deleted": "Şifre başarıyla silindi"
+      },
+      "error": {
+        "fetch": "Şifreler yüklenirken bir hata oluştu",
+        "create": "Şifre eklenirken bir hata oluştu",
+        "delete": "Şifre silinirken bir hata oluştu"
+      }
+    },
+
+    "pages": {
+      "home": {
+        "title": "Mail Hesaplarınız",
+        "welcome": "Tüm E-postalarınız\nTek Platformda",
+        "description": "Gmail, Outlook ve diğer tüm e-posta hesaplarınızı tek bir platformdan yönetin. Güvenli, hızlı ve kullanıcı dostu arayüz ile e-postalarınızı kontrol altında tutun.",
+        "features": {
+          "title": "Özellikler",
+          "emailManagement": "Tek Gelen Kutusu",
+          "emailManagementDesc": "Tüm e-postalarınızı tek bir gelen kutusunda görüntüleyin ve yönetin.",
+          "groupManagement": "Kolay Yönetim",
+          "groupManagementDesc": "Kullanıcı dostu arayüz ile e-postalarınızı kolayca yönetin.",
+          "security": "Güvenli Depolama",
+          "securityDesc": "E-postalarınız ve şifreleriniz güvenli bir şekilde saklanır."
+        },
+        "lastChecked": "Son kontrol",
+        "addedAt": "Eklenme",
+        "new": "yeni",
+        "deleteAccount": "Hesabı Sil",
+        "deleteAccountConfirm": "{{email}} hesabını silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+        "noAccounts": "Henüz mail hesabı eklemediniz",
+        "quickAccess": "Hızlı Erişim"
+      },
+      "inbox": {
+        "title": "Tüm Gelen Kutular",
+        "titleWithAccount": "Gelen Kutusu - {{account}}",
+        "allAccounts": "Tüm Hesaplar",
+        "noEmails": "Hiç e-posta bulunamadı",
+        "noEmailsForAccount": "Bu hesaba ait e-posta bulunamadı",
+        "selectAll": "Tümünü Seç",
+        "deselectAll": "Seçimleri Kaldır",
+        "selectedCount": "{{count}} e-posta seçildi",
+        "deleteSelected": "Seçilenleri Sil",
+        "loadMore": "Daha Fazla Yükle"
+      },
+      "sent": {
+        "title": "Gönderilen",
+        "empty": "Gönderilmiş e-posta yok",
+        "emptyDescription": "Henüz gönderilmiş e-posta bulunmuyor",
+        "selectedCount": "{{count}} e-posta seçildi",
+        "table": {
+          "subject": "Konu",
+          "to": "Alıcı",
+          "from": "Gönderen",
+          "date": "Tarih",
+          "noSubject": "(Konu Yok)"
+        },
+        "actions": {
+          "delete": "Sil",
+          "bulkDelete": "Seçilenleri Sil"
+        },
+        "dialog": {
+          "bulkTitle": "Toplu Silme Onayı",
+          "bulkDescription": "{{count}} e-postayı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+          "confirm": "Sil"
+        },
+        "success": {
+          "deleted": "E-posta silindi",
+          "bulkDeleted": "{{count}} e-posta başarıyla silindi"
+        },
+        "error": {
+          "invalidResponse": "Geçersiz sunucu yanıtı",
+          "fetch": "Gönderilen e-postalar alınırken bir hata oluştu",
+          "delete": "E-posta silinirken bir hata oluştu",
+          "bulkDelete": "E-postalar silinirken bir hata oluştu",
+          "bulkDeleteFailed": "{{count}} e-posta silinemedi",
+          "noEmailsSelected": "Lütfen en az bir e-posta seçin"
+        },
+        "info": {
+          "deletingEmails": "{{count}} e-posta siliniyor..."
+        }
+      },
+      "trash": {
+        "title": "Çöp Kutusu",
+        "empty": "Çöp kutusu boş",
+        "search": "Çöp kutusunda ara...",
+        "restore": "Geri Yükle",
+        "delete": "Kalıcı Olarak Sil",
+        "emptyTrash": "Çöp Kutusunu Boşalt"
+      },
+      "profile": {
+        "title": "Profil",
+        "personalInfo": "Kişisel Bilgiler",
+        "security": "Güvenlik",
+        "preferences": "Tercihler",
+        "save": "Değişiklikleri Kaydet",
+        "cancel": "İptal",
+        "success": "Profil başarıyla güncellendi",
+        "error": "Profil güncellenirken hata oluştu"
+      },
+      "settings": {
+        "title": "Ayarlar",
+        "general": "Genel",
+        "appearance": "Görünüm",
+        "notifications": "Bildirimler",
+        "language": "Dil",
+        "theme": "Tema",
+        "save": "Değişiklikleri Kaydet",
+        "cancel": "İptal",
+        "success": "Ayarlar başarıyla kaydedildi",
+        "error": "Ayarlar kaydedilirken hata oluştu"
+      },
+      "passwordManager": {
+        "title": "Şifre Yöneticisi",
+        "addPassword": "Şifre Ekle",
+        "editPassword": "Şifreyi Düzenle",
+        "deletePassword": "Şifreyi Sil",
+        "search": "Şifreleri ara...",
+        "empty": "Kaydedilmiş şifre yok",
+        "website": "Web Sitesi",
+        "username": "Kullanıcı Adı",
+        "password": "Şifre",
+        "notes": "Notlar",
+        "save": "Kaydet",
+        "cancel": "İptal",
+        "success": "Şifre başarıyla kaydedildi",
+        "error": "Şifre kaydedilirken hata oluştu"
+      }
+    },
+
+    "mailAccount": {
+      "errors": {
+        "notAuthenticated": "Oturum açılmamış",
+        "failedToGetGmailAuth": "Gmail yetkilendirme URL'si alınamadı",
+        "failedToDeleteAccount": "Hesap silinemedi",
+        "failedToHandleGmailCallback": "Gmail geri çağırma işlemi başarısız",
+        "failedToGetAccounts": "Kullanıcı hesapları alınamadı",
+        "failedToStartGmailAuth": "Gmail yetkilendirmesi başlatılamadı",
+        "failedToFetchInbox": "Gelen kutusu mesajları alınamadı",
+        "failedToSendEmail": "E-posta gönderilemedi",
+        "failedToFetchSentEmails": "Gönderilen e-postalar alınamadı",
+        "failedToDeleteEmail": "E-posta silinemedi",
+        "failedToFetchDeletedEmails": "Silinen e-postalar alınamadı",
+        "failedToRestoreEmail": "E-posta geri yüklenemedi",
+        "failedToPermanentDelete": "E-posta kalıcı olarak silinemedi",
+        "sessionExpired": "Oturumunuz sona erdi. Lütfen tekrar giriş yapın.",
+        "invalidResponse": "Sunucudan geçersiz yanıt formatı",
+        "accountNotFound": "Hesap bulunamadı",
+        "bulkEmailDeleteFailed": "{{count}} e-posta silinirken hata oluştu",
+        "outlookBulkDeleteLimit": "{{count}} Outlook e-postası silinirken hata oluştu (API sınırı)",
+        "noEmailsSelected": "Lütfen en az bir e-posta seçin"
+      },
+      "success": {
+        "accountDeleted": "Hesap başarıyla silindi",
+        "accountAdded": "{{email}} hesabı başarıyla eklendi",
+        "emailSent": "E-posta başarıyla gönderildi",
+        "emailDeleted": "E-posta başarıyla silindi",
+        "emailRestored": "E-posta başarıyla geri yüklendi",
+        "emailPermanentDeleted": "E-posta kalıcı olarak silindi",
+        "bulkEmailsDeleted": "{{count}} e-posta başarıyla silindi"
+      },
+      "addAccount": "Hesap Ekle",
+      "gmailDescription": "Gmail hesabınızı ekleyerek tüm maillerinizi tek yerden yönetin",
+      "outlookDescription": "Outlook hesabınızı ekleyerek tüm maillerinizi tek yerden yönetin",
+      "errors": {
+        "failedToAddAccount": "Hesap eklenirken bir hata oluştu",
+        "failedToStartGmailAuth": "Gmail hesabı ekleme başlatılamadı",
+        "failedToStartOutlookAuth": "Outlook hesabı ekleme başlatılamadı"
+      },
+      "about": {
+        "title": "Hesap Ekleme Hakkında",
+        "description": "Hesabınızı ekledikten sonra, mail kutunuz otomatik olarak senkronize edilecek ve tüm mailleriniz uygulama üzerinden erişilebilir olacak. Bu işlem birkaç dakika sürebilir."
+      },
+      "info": {
+        "deletingEmails": "{{count}} e-posta siliniyor..."
+      }
+    },
+
+    "profile": {
+      "title": "Profil Düzenle",
+      "subtitle": "Profil bilgilerinizi güncelleyin",
+      "avatar": "Profil Fotoğrafı",
+      "avatarDescription": "Fotoğrafı değiştirmek için tıklayın",
+      "name": "Ad Soyad",
+      "username": "Kullanıcı Adı",
+      "email": "E-posta",
+      "changePassword": "Şifre Değiştir",
+      "currentPassword": "Mevcut Şifre",
+      "newPassword": "Yeni Şifre",
+      "confirmPassword": "Yeni Şifre (Tekrar)",
+      "saveChanges": "Değişiklikleri Kaydet",
+      "info": "Profil Bilgileri",
+      "infoDescription": "Profil bilgilerinizi güncelleyerek aşağıdaki özelliklere erişebilirsiniz:",
+      "info1": "Kişisel bilgilerinizi güncelleyin",
+      "info2": "Profil fotoğrafınızı değiştirin",
+      "info3": "Güvenliğiniz için şifrenizi güncelleyin",
+      "success": {
+        "updated": "Profil başarıyla güncellendi",
+        "passwordUpdated": "Şifre başarıyla güncellendi",
+        "avatarUpdated": "Profil fotoğrafı başarıyla güncellendi"
+      },
+      "error": {
+        "fetch": "Profil bilgileri yüklenirken bir hata oluştu: {{error}}",
+        "update": "Profil güncellenirken bir hata oluştu",
+        "passwordMismatch": "Yeni şifreler eşleşmiyor",
+        "passwordTooShort": "Yeni şifre en az 6 karakter olmalıdır",
+        "passwordUpdate": "Şifre güncellenirken bir hata oluştu",
+        "fileTooLarge": "Dosya boyutu çok büyük. Maksimum 5MB boyutunda dosya yükleyebilirsiniz",
+        "invalidFileType": "Lütfen geçerli bir resim dosyası seçin",
+        "avatarUpdate": "Profil fotoğrafı güncellenirken bir hata oluştu: {{error}}"
+      }
+    },
+
+    "deletedItems": {
+      "title": "Çöp Kutusu",
+      "empty": "Çöp kutusunda e-posta bulunamadı",
+      "emptyDescription": "Çöp kutusunda hiç e-posta yok veya henüz bir e-posta silmediniz",
+      "selectedCount": "{{count}} e-posta seçildi",
+      "table": {
+        "account": "Hesap",
+        "subject": "Konu",
+        "date": "Tarih",
+        "noSubject": "(Konu Yok)"
+      },
+      "actions": {
+        "restore": "Geri Getir",
+        "delete": "Kalıcı Olarak Sil",
+        "permanentDelete": "Kalıcı Olarak Sil",
+        "bulkRestore": "Seçilenleri Geri Getir",
+        "bulkDelete": "Seçilenleri Sil"
+      },
+      "dialog": {
+        "title": "Kalıcı Silme Onayı",
+        "description": "Bu e-postayı kalıcı olarak silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+        "bulkTitle": "Toplu Kalıcı Silme Onayı",
+        "bulkDescription": "{{count}} e-postayı kalıcı olarak silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+        "confirm": "Kalıcı Olarak Sil"
+      },
+      "pagination": {
+        "total": "Toplam {{count}} e-posta"
+      },
+      "success": {
+        "restored": "E-posta başarıyla geri getirildi",
+        "deleted": "E-posta kalıcı olarak silindi",
+        "bulkRestored": "{{count}} e-posta başarıyla geri getirildi",
+        "bulkDeleted": "{{count}} e-posta kalıcı olarak silindi"
+      },
+      "error": {
+        "invalidResponse": "Geçersiz sunucu yanıtı",
+        "fetch": "Silinen e-postalar alınırken bir hata oluştu",
+        "restore": "E-posta geri getirilirken bir hata oluştu",
+        "delete": "E-posta kalıcı olarak silinirken bir hata oluştu",
+        "bulkRestore": "E-postalar geri getirilirken bir hata oluştu",
+        "bulkDelete": "E-postalar kalıcı olarak silinirken bir hata oluştu",
+        "bulkRestoreFailed": "{{count}} e-posta geri getirilemedi",
+        "bulkDeleteFailed": "{{count}} e-posta kalıcı olarak silinemedi",
+        "noEmailsSelected": "Lütfen en az bir e-posta seçin"
+      },
+      "info": {
+        "restoringEmails": "{{count}} e-posta geri getiriliyor...",
+        "deletingEmails": "{{count}} e-posta siliniyor..."
+      }
+    },
+
+    "landing": {
+      "emailProviders": {
+        "gmail": "Gmail",
+        "outlook": "Outlook",
+        "schoolMail": "Hotmail "
+      },
+      "nav": {
+        "features": "Özellikler",
+        "howItWorks": "Nasıl Çalışır",
+        "providers": "Desteklenen Servisler"
+      },
+      "hero": {
+        "title": "Tüm E-Postalarınızı Tek Platformda Yönetin",
+        "description": "E-Posta Yönetimi ile {{provider}} dahil tüm e-posta hesaplarınızı tek bir arayüzden kontrol edin. Güvenli, hızlı ve kullanıcı dostu deneyim.",
+        "startButton": "Ücretsiz Başlayın",
+        "howItWorksButton": "Nasıl Çalışır",
+        "imageAlt": "Mail Yönetimi Arayüzü",
+        "connected": "Bağlandı"
+      },
+      "trustedBy": {
+        "subtitle": "GÜVEN DUYABİLİRSİNİZ",
+        "title": "Binlerce Kullanıcının Tercihi"
+      },
+      "stats": {
+        "activeUsers": "Aktif Kullanıcı",
+        "emailsManaged": "Yönetilen E-posta",
+        "uptime": "Uptime",
+        "supportedServices": "Desteklenen Servis"
+      },
+      "features": {
+        "title": "Öne Çıkan Özellikler",
+        "subtitle": "Mail Yönetimi, e-posta deneyiminizi güçlendiren modern özelliklerle donatılmıştır.",
+        "unified": {
+          "title": "Tek Gelen Kutusu",
+          "description": "Farklı servislerden gelen tüm e-postalarınızı tek bir gelen kutusunda görüntüleyin ve yönetin.",
+          "feature1": "Tüm hesapları görüntüleme",
+          "feature2": "Otomatik senkronizasyon",
+          "feature3": "Hızlı yanıtlama"
+        },
+        "secure": {
+          "title": "Güvenli Erişim",
+          "description": "İki faktörlü doğrulama ve güvenli OAuth entegrasyonu ile hesaplarınızı koruyun.",
+          "feature1": "2FA koruması",
+          "feature2": "Şifre yöneticisi",
+          "feature3": "Uçtan uca şifreleme"
+        },
+        "smart": {
+          "title": "Akıllı Yönetim",
+          "description": "E-posta grupları ve gelişmiş filtreleme ile iletişiminizi verimli bir şekilde organize edin.",
+          "feature1": "Kişiselleştirilmiş gruplar",
+          "feature2": "Gelişmiş arama",
+          "feature3": "Etiketleme sistemi"
+        }
+      },
+      "howItWorks": {
+        "title": "Nasıl Çalışır",
+        "subtitle": "Üç basit adımda e-posta yönetiminizi dönüştürün.",
+        "step1": {
+          "title": "Hesap Oluşturun",
+          "description": "Birkaç saniye içinde ücretsiz hesabınızı oluşturun ve güvenli platformumuza giriş yapın."
+        },
+        "step2": {
+          "title": "E-posta Hesaplarınızı Bağlayın",
+          "description": "Gmail ve Outlook hesaplarınızı birkaç tıklama ile güvenli bir şekilde bağlayın."
+        },
+        "step3": {
+          "title": "Tüm E-postalarınızı Yönetin",
+          "description": "Tek bir arayüzde tüm e-postalarınızı görüntüleyin, yanıtlayın ve organize edin."
+        }
+      },
+      "testimonials": {
+        "title": "Kullanıcılarımız Ne Diyor",
+        "subtitle": "Binlerce memnun kullanıcı Mail Yönetimi'ni tercih ediyor.",
+        "quotes": {
+          "1": {
+            "text": "Farklı hesaplarımdaki e-postaları tek bir yerden yönetebilmek harika. Artık hiçbir önemli e-postayı kaçırmıyorum.",
+            "name": "Ahmet Y.",
+            "role": "İş İnsanı"
+          },
+          "2": {
+            "text": "Şifre yöneticisi ve iki faktörlü doğrulama ile e-postalarımın güvende olduğunu bilmek beni rahatlatıyor. Harika bir uygulama!",
+            "name": "Merve K.",
+            "role": "Pazarlama Uzmanı"
+          },
+          "3": {
+            "text": "Mail Yönetimi sayesinde günde en az 1 saat tasarruf ediyorum. Arayüzü çok kullanışlı ve tüm e-posta servislerim artık tek bir yerde.",
+            "name": "Cemil D.",
+            "role": "Freelancer"
+          },
+          "4": {
+            "text": "Öğrencilerimle iletişimimi organize etmemi sağlayan harika bir platform. Hem okul maili hem de Gmail hesabımı tek yerden yönetebiliyorum.",
+            "name": "Elif B.",
+            "role": "Öğretmen"
+          },
+          "5": {
+            "text": "Teknik olarak çok sağlam bir altyapı. OAuth entegrasyonu ve güvenlik önlemleri oldukça etkileyici.",
+            "name": "Kemal T.",
+            "role": "Yazılım Geliştirici"
+          },
+          "6": {
+            "text": "Mail Yönetimi sayesinde müşterilerimle iletişim çok daha kolay hale geldi. Artık e-postaları kaçırmıyor, hızlı yanıt verebiliyorum.",
+            "name": "Zeynep G.",
+            "role": "Küçük İşletme Sahibi"
+          }
+        }
+      },
+      "providers": {
+        "title": "Desteklenen E-posta Servisleri",
+        "subtitle": "En popüler e-posta servislerini tek platformda birleştirin.",
+        "schoolMail": " Hotmail ",
+        "slider": {
+          "1": "Mail Yönetimi Arayüzü 1",
+          "2": "Mail Yönetimi Arayüzü 2",
+          "3": "Mail Yönetimi Arayüzü 3",
+          "4": "Mail Yönetimi Arayüzü 4",
+          "5": "Mail Yönetimi Arayüzü 5"
+        }
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "subtitle": "Mail Yönetimi hakkında en çok sorulan sorular ve cevapları.",
+        "q1": {
+          "question": "Mail Yönetimi ücretsiz mi?",
+          "answer": "Evet, Mail Yönetimi'nin temel özellikleri tamamen ücretsiz olarak sunulmaktadır. Daha gelişmiş özellikler için premium abonelik planlarımız da mevcuttur."
+        },
+        "q2": {
+          "question": "E-posta hesaplarımın güvenliği nasıl sağlanıyor?",
+          "answer": "Mail Yönetimi, OAuth2 protokolü ile hesaplarınıza güvenli erişim sağlar. Şifreleriniz hiçbir zaman sunucularımızda saklanmaz ve tüm veriler şifrelenir."
+        },
+        "q3": {
+          "question": "Hangi e-posta servisleri destekleniyor?",
+          "answer": "Şu anda Gmail, Outlook ve Okul Mail sistemi desteklenmektedir. Yakında daha fazla servis eklenecektir."
+        },
+        "q4": {
+          "question": "E-posta hesabımı nasıl ekleyebilirim?",
+          "answer": "Hesabınıza giriş yaptıktan sonra, \"Hesap Ekle\" bölümünden istediğiniz e-posta servisini seçebilir ve birkaç tıklama ile hesabınızı bağlayabilirsiniz."
+        },
+        "q5": {
+          "question": "Mail Yönetimi'ni mobil cihazımda kullanabilir miyim?",
+          "answer": "Evet, Mail Yönetimi tamamen mobil uyumludur ve tarayıcınız üzerinden tüm cihazlardan erişilebilir. Yakında iOS ve Android için özel uygulamalarımız da yayınlanacaktır."
+        },
+        "q6": {
+          "question": "Mail Yönetimi'nde verilerim güvende mi?",
+          "answer": "Evet, en yüksek güvenlik standartlarını uyguluyoruz. Tüm veriler uçtan uca şifrelenir ve GDPR uyumlu veri koruma politikalarına sahibiz."
+        }
+      },
+      "footer": {
+        "description": "Tüm e-posta hesaplarınızı tek platformda yönetin. Güvenli, hızlı ve kullanıcı dostu.",
+        "product": {
+          "title": "Ürün",
+          "features": "Özellikler",
+          "plans": "Planlar",
+          "security": "Güvenlik",
+          "partners": "İş Ortakları"
+        },
+        "support": {
+          "title": "Destek",
+          "helpCenter": "Yardım Merkezi",
+          "documentation": "Dokümantasyon",
+          "statusPage": "Durum Sayfası",
+          "contactUs": "Bize Ulaşın"
+        },
+        "company": {
+          "title": "Şirket",
+          "about": "Hakkımızda",
+          "blog": "Blog",
+          "careers": "Kariyer",
+          "press": "Basın"
+        },
+        "copyright": "© {{year}} Mail Yönetimi. Tüm hakları saklıdır.",
+        "legal": {
+          "privacy": "Gizlilik Politikası",
+          "terms": "Kullanım Şartları",
+          "cookies": "Çerez Politikası"
+        }
+      }
+    },
+
+    "languages": {
+      "turkish": "Türkçe",
+      "english": "İngilizce",
+      "selectLanguage": "Dil Seçin"
+    },
+
+    "systemMail": {
+      "title": "Sistem Mail Hesabı",
+      "description": "Şifre sıfırlama ve diğer bilgilendirme e-postaları için sistem mail hesabı yapılandırın",
+      "configure": "Sistem Mail Hesabını Yapılandır",
+      "checking": "Sistem mail durumu kontrol ediliyor...",
+      "configured": "Sistem Mail Yapılandırıldı",
+      "configuredEmail": "Sistem için yapılandırılmış e-posta hesabı:",
+      "connectDifferent": "Farklı Bir Hesap Bağla",
+      "backToSettings": "Ayarlara Dön",
+      "errors": {
+        "checkFailed": "Sistem mail durumu kontrol edilemedi",
+        "authFailed": "Google ile kimlik doğrulama başarısız",
+        "configurationFailed": "Sistem mail yapılandırması başarısız"
+      }
+    },
+
+    "forgotPassword": {
+      "title": "Şifremi Unuttum",
+      "description": "E-posta adresinizi girin, size şifre sıfırlama bağlantısı göndereceğiz",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "submit": "Sıfırlama Bağlantısı Gönder",
+      "backToLogin": "Girişe Dön",
+      "success": {
+        "title": "Sıfırlama Bağlantısı Gönderildi",
+        "description": "E-posta adresinize bir şifre sıfırlama bağlantısı gönderdik. Lütfen gelen kutunuzu kontrol edin."
+      },
+      "error": {
+        "emailRequired": "E-posta adresi gereklidir",
+        "invalidEmail": "Lütfen geçerli bir e-posta adresi girin",
+        "notFound": "Bu e-posta adresiyle kayıtlı hesap bulunamadı",
+        "generic": "Sıfırlama bağlantısı gönderilirken bir hata oluştu"
+      },
+      "getStarted": "Hemen Başla",
+      "documentation": "Dokümantasyon"
+    },
+
+    "resetPassword": {
+      "title": "Şifre Sıfırlama",
+      "description": "Lütfen yeni şifrenizi girin",
+      "verifying": "Sıfırlama token'ı doğrulanıyor...",
+      "newPassword": "Yeni Şifre",
+      "newPasswordPlaceholder": "••••••••",
+      "confirmPassword": "Şifreyi Tekrarla",
+      "confirmPasswordPlaceholder": "••••••••",
+      "submit": "Şifreyi Sıfırla",
+      "backToLogin": "Giriş Sayfasına Dön",
+      "success": {
+        "title": "Şifre Sıfırlama Başarılı",
+        "description": "Şifreniz başarıyla sıfırlandı. Artık yeni şifrenizle giriş yapabilirsiniz.",
+        "loginButton": "Giriş Yap"
+      },
+      "error": {
+        "invalidToken": "Geçersiz veya süresi dolmuş sıfırlama token'ı",
+        "verificationFailed": "Sıfırlama token'ı doğrulanamadı",
+        "passwordTooShort": "Şifre en az 8 karakter olmalıdır",
+        "passwordsDoNotMatch": "Şifreler eşleşmiyor",
+        "generic": "Şifre sıfırlama başarısız oldu"
+      }
+    },
+
+    "sentItems": {
+      "title": "Gönderilen",
+      "empty": "Gönderilmiş e-posta yok",
+      "emptyDescription": "Henüz gönderilmiş e-posta bulunmuyor",
+      "selectedCount": "{{count}} e-posta seçildi",
+      "table": {
+        "subject": "Konu",
+        "to": "Alıcı",
+        "from": "Gönderen",
+        "date": "Tarih",
+        "noSubject": "(Konu Yok)"
+      },
+      "actions": {
+        "delete": "Sil",
+        "bulkDelete": "Seçilenleri Sil"
+      },
+      "dialog": {
+        "bulkTitle": "Toplu Silme Onayı",
+        "bulkDescription": "{{count}} e-postayı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+        "confirm": "Sil"
+      },
+      "success": {
+        "deleted": "E-posta silindi",
+        "bulkDeleted": "{{count}} e-posta başarıyla silindi"
+      },
+      "error": {
+        "invalidResponse": "Geçersiz sunucu yanıtı",
+        "fetch": "Gönderilen e-postalar alınırken bir hata oluştu",
+        "delete": "E-posta silinirken bir hata oluştu",
+        "bulkDelete": "E-postalar silinirken bir hata oluştu",
+        "bulkDeleteFailed": "{{count}} e-posta silinemedi",
+        "noEmailsSelected": "Lütfen en az bir e-posta seçin"
+      },
+      "info": {
+        "deletingEmails": "{{count}} e-posta siliniyor..."
+      }
+    }
+  }
+} 

@@ -1,0 +1,1 @@
+# Bu dosya database dizinini bir Python paketi olarak işaretler 
