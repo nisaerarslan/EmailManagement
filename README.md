@@ -134,7 +134,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosy
 
 ## 📞 İletişim
 
-- **Geliştirici**: Nisa Erarslan
+- **Geliştiriciler**: Nisa Erarslan / Aykut Adem / Fatih Ünal
 - **GitHub**: [@nisaeerarslan](https://github.com/nisaeerarslan)
 
 ## ⚠️ Önemli Notlar
